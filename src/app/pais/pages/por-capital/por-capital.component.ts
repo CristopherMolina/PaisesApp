@@ -4,7 +4,14 @@ import { PaisService } from '../../services/pais.service';
 
 @Component({
   selector: 'app-por-capital',
-  templateUrl: './por-capital.component.html'
+  templateUrl: './por-capital.component.html',
+  styles: [
+    `
+    li {
+      cursor: pointer;
+    }
+    `
+  ] 
 })
 export class PorCapitalComponent {
 
